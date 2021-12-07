@@ -325,6 +325,8 @@ footer{
     left: 0;
     height: 100%;
     width: 100%;
+    background-size: cover;
     background-image: url('back.jpeg');
-    background-attachment: fixed;
+    background-repeat: center center no-repeat;
+    background-attachment: scroll;
 }
