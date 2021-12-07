@@ -1,7 +1,6 @@
 html,body{
 	margin: 0;
-	background-image: url(back.jpeg);
-	background-attachment: fixed;
+	
 	height: 100%;
 }
 header{
@@ -318,4 +317,14 @@ footer{
 }
 #myBtn:hover {
     background-color: rgb(70,70,70); 
+}
+#background_wrap {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('back.jpeg');
+    background-attachment: fixed;
 }
